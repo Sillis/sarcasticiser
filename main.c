@@ -13,8 +13,7 @@ int main()
     
     while (counter < sentLength) {
         word[counter] = (toupper(word[counter]));
-        counter++;
-        counter++;
+        counter+=2;
     };
     
     printf("result: %s", word);
